@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <Head>
+        <meta charset = "UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" contents="width=device-width, initial-scale-1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="Style.css" />
+        <title>Elite Cruisers - Book Vehicle</title>
+    </Head>
+    <body>
+         <!--Navbar stuff-->
+        <div class="navbar">
+            <div class="logo"><a href="HOMEPAGE.php">Elite Cruisers</a></div>
+            <ul class="links">
+                <li><a href="Change Reservation.html">Change Reservation</a></li>
+                <li><a href="delete reservation.html">Delete Reservation</a></li>
+            </ul>
+        </div>
+                <!--Redline indicator-->
+        <div class="redline"></div>
+        <!--Left Text background-->
+        <div class="rectangle">
+            <!--Left text elements-->
+
+           <br><h1 class = "head">New Reservation</h1>
+
+<div class="form">
+            <form action="bookingpageconnection.php" method="POST">
+        <!--first name, last name, phone number-->       
+<div>
+        <br>
+        <label for="firstname">First Name:</label>
+        <input class= "input-field" type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">Last Name:</label>
+        <input class= "input-field" type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="phonenumber">Phone Number:</label>
+        <input class= "input-field" type="tel" id="phonenumber" name="phonenumber" required><br><br>
+    </div>
+
+ <div>
+    <label for ="cartype">Which car?</label><br><br>
+                    <select class="selector" id= "cartype" name="cartype" required>
+                        
+                        <option value="Rolls Royce Phantom (blue)">Rolls Royce Phantom (blue)</option>
+                        <option value="Bentley Continental Flying Spur (White)">Bentley Continental Flying Spur (White)</option>
+                        <option value="Mercedes Benz CLS 350 (Silver)">Mercedes Benz CLS 350 (Silver)</option>
+                        <option value="Jaguar S Type (Champagne)">Jaguar S Type (Champagne)</option>
+                        <option value="Ferrari F430 Scuderia (Red)">Ferrari F430 Scuderia (Red)</option>
+                        <option value="Lamborghini Murcielago LP640 (Matte Black)">Lamborghini Murcielago LP640 (Matte Black)</option>
+                        <option value="Porsche Boxster (White)">Porsche Boxster (White)</option>
+                        <option value="Lexus SC430 (Black)">Lexus SC430 (Black)</option>
+                        <option value="Jaguar MK 2 (White)">Jaguar MK 2 (White)</option>
+                        <option value="Rolls Royce Silver Spirit Limousine (Georgian Silver)">Rolls Royce Silver Spirit Limousine (Georgian Silver)</option>
+                        <option value="MG TD (Red)">MG TD (Red)</option>
+                    </select>
+                </div>
+
+ <!--Date Pickers-->
+                    <div>
+                        <br>
+                        <label for="startdate">Start Date:</label>
+                        <input type="date" id="startdate" name="startdate" required><br><br>
+
+                        <label for="enddate">End Date:</label>
+                        <input type="date" id="enddate" name="enddate" required> <br>
+                                           
+                    </div>
+<br>
+
+<input type="submit" value="Submit">    
+
+
+            </form>
+        </div>
+
+        </div>
+    </body>
+    </html>
