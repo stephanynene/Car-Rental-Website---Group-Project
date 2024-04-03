@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -403,3 +404,410 @@ h5{
   padding-left: 170px;
   padding-top: 10px;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #EDF2F4;
+}
+
+body{
+    background-color: #EDF2F4;
+    background-image: url("backgroundcar.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #EDF2F4;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #EF233C;
+}
+
+/*HEADER*/
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 8vh;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2B2D42;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 4rem;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+
+.navbar .links li:hover{
+    scale: 1.05;
+}
+.navbar .links li:active{
+    scale: 0.95;
+}
+
+.navbar .toggle_btn{
+    color: #EDF2F4;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action_btn{
+    background-color: #EF233C;
+    color: #EDF2F4;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2 ease;
+    font-weight: bolder;
+}
+
+.action_btn:hover{
+    scale: 1.05;
+    color: #2B2D42;
+}
+
+.action_btn:active{
+    scale: 0.95;
+    color: #2B2D42;
+}
+
+.redline{
+    height: 1vh;
+    width:auto;
+    background-color: #EF233C;
+}
+
+.head{
+    color: #2B2D42;
+    font-weight:bold;
+    font-size:3rem;
+}
+
+.ltext{
+    font-size: larger;
+    padding-top: 8rem;
+    text-align: center;
+    line-height: 300%;
+}
+
+.selector{
+    width: 25rem;
+    height: 3rem;
+    color: #2B2D42;
+    background-color: #EDF2F4;
+    border-color: #2B2D42;
+    border-radius: 35px;
+    font-size: larger;
+    padding-left: 10px;
+    border: none;
+}
+
+.selector option{
+    color: #2B2D42;
+    line-height: 10rem;
+    font-size: medium;
+}
+
+input[type=date]{
+    color: #2B2D42;
+    width: auto;
+    height: 1.5rem;
+    background-color: #EDF2F4;
+    border-radius: 35px;
+    border: none;
+    padding-left: 5px;
+}
+
+label{
+    color: #2B2D42;
+    font-weight:600;
+    font-size: smaller;
+}
+
+input[type=submit]{
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    color: #EDF2F4;
+    background-color: #EF233C;
+    border-radius: 35px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+input[type=submit]:hover{
+    scale: 1.05;
+}
+input[type=submit]:active{
+    scale: 0.95;
+}
+
+input[type=date]:hover{
+    scale: 1.05;
+}
+input[type=date]:active{
+    scale: 0.95;
+}
+
+/*This is the faded background thing you see on the left*/
+.rectangle{
+    height: 91vh;
+    width: 30rem;
+    background-color: rgba(141, 153, 174, 0.6);
+}
+
+/*things for the confirmation pages*/
+.singlepoint{
+    color: #2B2D42;
+    text-align: center;
+    padding-top: 15rem;
+}
+
+.subtitle{
+    color: #2B2D42;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.bgfade {
+    background-color: rgba(141, 153, 174, 0.6);
+    height: 92vh;
+    width: auto;
+}
+
+.centerinput{
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    padding-left: 12px;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 35px;
+    width: 400px;
+    border: none;
+}
+
+.hometext a{
+    color: #8D99AE;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: left;
+    padding-left: 3rem;
+
+}
+.hometext a:hover{
+    scale: 1.10;
+    color: #2B2D42;
+}
+
+.hometext hr{
+    width: 80%;
+    margin-left: 3rem;
+}
+
+/*This is the faded background thing you see on the left*/
+.rectanglelight{
+    height: 91vh;
+    width: 30rem;
+    background-color: rgba(237, 242, 244, 0.8);
+
+}
+
+.info{
+    padding: 3rem;
+    line-height: 150%;
+}
+
+.infotitle{
+    color: #2B2D42;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+
+.info p1{
+    color: #2B2D42;
+    font-size: large;
+    font-weight: 300;
+}
+
+.info hr{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.info .action_btn{
+    font-size: medium;
+}
+
+.belowhead{
+    font-size: medium;
+    color: #2B2D42;
+}
+
+.form{
+
+    margin-left: 15px;
+}
+
+.chargesduetext{
+    font-size: large;
+    color: #2B2D42;
+    text-shadow: 0 0 5px #fff;
+}
+
+
+.input-field{
+     color: black; 
+}
+
+/*SPORTS, CLASSIC, LUXURIOUS CAR TYPES PAGES*/
+
+.backgroundofcar{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bmwbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+
+}
+
+h1{
+    color: #fff;
+    font-size: 75px;
+    margin-left: 20px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-table;
+    border-radius: 10px;
+    padding:20px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.card1{
+background-image: url(rollsroycephantom.jpg);
+}
+.card2{
+background-image: url(mercedesbenzclsclass.jpg);
+}
+.card3{
+background-image: url(bentleyflyingspur.jpg);
+}
+.card4{
+background-image: url(jaguarstype.jpg);
+}
+.card5{
+background-image: url(ferrarif430.jpg);
+}
+.card6{
+background-image: url(lamborghinilp640.jpg);
+}
+.card7{
+background-image: url(porscheboxter.jpg);
+}
+.card8{
+background-image: url(lexussc430.jpg);
+}
+.card9{
+background-image: url(jaguarmk2.jpg);
+}
+.card10{
+background-image: url(rollsroycelimousine.jpg);
+}
+.card11{
+background-image: url(mgtd.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    text-shadow: 0 0 5px #999;
+    font-weight: normal;
+}
+.card p{
+    text-shadow: 0 0 25px black
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.bookingform input[type=text], input[type=tel]{
+  color:black;
+  width: 260px;
+  height:40px;
+ padding: 12px 10px;
+ margin: 8px 0;
+ display: inline-block;
+
+ border-radius: 10px;
+ box-sizing: border-box;
+}
+.bookingform {
+  border-radius: 5px;
+  padding-left: 90px;
+}
+.bookingform select{
+  width: 260px;;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.bookformbutton{
+  border-radius: 5px;
+  padding-left: 170px;
+  padding-top: 10px;
+}
+>>>>>>> 262c2b59cf8889e1a39640524f9c8a778094b4a4
